@@ -15,7 +15,7 @@ public class HelloController {
     @GetMapping
     public ResponseEntity<?> greetings() {
 
-        return new ResponseEntity<Object>("<h1 style='color:red;'>Hehehe +++++! Weolcome nthung6 using codepilne<h1>", HttpStatus.OK);
+        return new ResponseEntity<Object>("<h1 style='color:gray;'>Hehehe +++++! Weolcome nthung6-Vien Anh using codepilne<h1>", HttpStatus.OK);
     }
 
 }
